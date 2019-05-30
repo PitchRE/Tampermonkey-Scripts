@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Vlive Date 9000
 // @namespace    https://github.com/PitchRE/Tampermonkey-Scripts
 // @version      0.1
-// @description  Vlive Date
+// @description  Changes date under video from "x time ago" to actuall date.
 // @author       PitchRE
 // @match        https://www.vlive.tv/video/*
 // @grant        none
