@@ -10,10 +10,13 @@
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
 
+var hideChat = 0; // 1 on anything else off.
+
+var delay = 600;
+// default value = 600. Change to higher if script doesn't work for you properly (due to slow third party api response)
+
 (function() {
   'use strict';
-
-  var hideChat = 0; // 1 on anything else off.
 
   if (hideChat == 1) {
     $('.comment_area').css('display', 'none'); // delete chat.
@@ -30,5 +33,5 @@
     $('.date') // exchange text of first class "date" with our prepared data var.
       .first()
       .html(myDate);
-  }, 600);
+  }, delay);
 })();
