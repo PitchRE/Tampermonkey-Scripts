@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @author       You
+// @author       Pitch
 // @match        https://k2nblog.com/*
 // @grant        none
 // @match        https://www.mirrored.to/files/*
