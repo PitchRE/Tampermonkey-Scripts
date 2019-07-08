@@ -30,7 +30,7 @@ function Find_A_Tag() {
 
     if (Mirrored != false) {
 
-        var Sibling = Mirrored[0].nextSibling
+        var Sibling = Mirrored[0].nextSibling;
 
 
         var found = false;
