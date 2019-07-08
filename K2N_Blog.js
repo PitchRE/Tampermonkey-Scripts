@@ -19,7 +19,7 @@ function Find_Mirrored() {
     if (resultImgs.length <= 0) {
         return false;
     } else {
-        return resultImgs;
+        return resultImgs
     }
 
 }
