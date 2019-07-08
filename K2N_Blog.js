@@ -6,7 +6,6 @@
 // @author       You
 // @match        https://k2nblog.com/*
 // @grant        none
-// @require  file:///home/pitch/Desktop/Tampermonkey-Scripts/K2N_Blog.js
 // @match        https://www.mirrored.to/files/*
 // @include      https://www.mirrored.to/downlink/*
 // @include      https://*.zippyshare.com/*
